@@ -1,0 +1,281 @@
+.content-wrapper {
+  background-color: #F6F6F6;
+}
+
+.content-wrapper .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.content-body {
+  background-color: #ffffff;
+  Margin: 0 auto;
+  width: 100%;
+  max-width: 570px;
+}
+
+/* Web-version */
+.web-version {
+  padding-top: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  background-color: #F6F6F6;
+}
+
+/* Logo */
+.logo {
+  padding-top: 30px;
+  padding-right: 15px;
+  padding-bottom: 8px;
+  padding-left: 15px;
+}
+
+/* Welcome */
+.welcome {
+  padding-top: 8px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 8px;
+}
+
+.welcome .title {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.welcome .subtitle {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+/* Two-columns */
+.two-column {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  text-align: center;
+  vertical-align: top;
+  font-size: 0px;
+}
+
+.two-column .column-left {
+  display: inline-block;
+  width: 100%;
+  max-width: 218px;
+  vertical-align: top;
+  font-size: 14px;
+}
+
+.column-left__wrapper {
+  padding-right: 9px;
+  padding-left: 9px;
+  padding-bottom: 16px;
+}
+
+.column-left .inner {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding-top: 16px;
+  padding-right: 16px;
+  padding-left: 16px;
+  padding-bottom: 16px;
+  vertical-align: top;
+  background-color: #FF4B33;
+}
+
+.column-left .month {
+  padding-bottom: 2px;
+}
+
+.column-left .data {
+  padding-bottom: 2px;
+}
+
+.column-left .time {
+  padding-bottom: 8px;
+}
+
+.column-left .button {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.two-column .column-right {
+  display: inline-block;
+  width: 100%;
+  max-width: 352px;
+  font-size: 14px;
+}
+
+.column-left__wrapper {
+  padding-bottom: 16px;
+}
+
+/* Description */
+.description {
+  padding-top: 40px;
+  padding-right: 16px;
+  padding-left: 16px;
+  padding-bottom: 32px;
+  background-color: #0B379B;
+}
+
+.description .text {
+  padding-bottom: 32px;
+}
+
+.description .title {
+  padding-bottom: 16px;
+}
+
+.description .list-item {
+  padding-bottom: 8px;
+}
+
+.description .icon {
+  width: 12px;
+  padding-top: 5px;
+  padding-right: 12px;
+  vertical-align: top;
+  text-align: center;
+}
+
+.description .list-item .question {
+  vertical-align: top;
+}
+
+/* Webinar */
+.webinar {
+  padding-top: 40px;
+  padding-right: 16px;
+  padding-left: 16px;
+  padding-bottom: 8px;
+}
+
+.webinar .lead {
+  padding-bottom: 24px;
+}
+
+.webinar .avatar {
+  padding-bottom: 12px;
+}
+
+.webinar .name {
+  padding-bottom: 2px;
+}
+
+.webinar .speciality {
+  padding-bottom: 16px;
+}
+
+.webinar .button {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+/* Prize */
+.prize {
+  padding-top: 8px;
+  padding-right: 16px;
+  padding-left: 16px;
+  padding-bottom: 20px;
+}
+
+.prize .banner {
+  padding-bottom: 16px;
+}
+
+.prize .title {
+  padding-bottom: 16px;
+}
+
+.prize .button {
+  padding-top: 16px;
+  padding-bottom: 24px;
+}
+
+.prize .notice {
+  padding-bottom: 8px;
+}
+
+/* Footer-menu */
+.footer-menu {
+  padding-top: 20px;
+  padding-bottom: 16px;
+  text-align: center;
+  vertical-align: top;
+  font-size: 0px;
+}
+
+.footer-menu .footer-left {
+  display: inline-block;
+  width: 100%;
+  max-width: 285px;
+  vertical-align: top;
+  font-size: 14px;
+}
+
+.footer-left .inner {
+  padding-right: 16px;
+  padding-left: 16px;
+  vertical-align: top;
+}
+
+.footer-menu .header {
+  padding-bottom: 10px;
+}
+
+.footer-menu .social {
+  padding-top: 8px;
+  padding-bottom: 16px;
+}
+
+.footer-right .header {
+  padding-bottom: 18px;
+}
+
+.footer-menu .social-icon {
+  width: 24px;
+  padding-right: 8px;
+  padding-bottom: 8px;
+}
+
+.footer-menu .social-icon:last-child {
+  padding-right: 0px;
+}
+
+.footer-menu .mail,
+.footer-menu .tel,
+.footer-menu .link {
+  padding-bottom: 8px;
+}
+
+
+.footer-menu .footer-right {
+  display: inline-block;
+  width: 100%;
+  max-width: 285px;
+  vertical-align: top;
+  font-size: 14px;
+}
+
+.footer-right .inner {
+  padding-right: 16px;
+  padding-left: 16px;
+  vertical-align: top;
+}
+
+/* Subscription */
+.subscription {
+  padding-top: 56px;
+  padding-right: 0px;
+  padding-bottom: 8px;
+  padding-left: 0px;
+  background-color: #F6F6F6;
+}
+
+.subscription .rules {
+  padding-bottom: 16px;
+}
