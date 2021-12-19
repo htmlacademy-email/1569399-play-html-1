@@ -332,3 +332,226 @@
 .subscription .rules {
   padding-bottom: 16px;
 }
+
+/* Fonts */
+.h-1 {
+  font-family: "Trebuchet MS", "Tahoma", sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  mso-line-height-rule: exactly;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 96px;
+  line-height: 111px;
+}
+
+.h-2 {
+  font-family: "Trebuchet MS", "Tahoma", sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  mso-line-height-rule: exactly;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+}
+
+.h-3 {
+  font-family: "Trebuchet MS", "Tahoma", sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  mso-line-height-rule: exactly;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 35px;
+}
+
+.h-4 {
+  font-family: "Trebuchet MS", "Tahoma", sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  mso-line-height-rule: exactly;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.p-1 {
+  font-family: "Trebuchet MS", "Tahoma", sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  mso-line-height-rule: exactly;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.p-2 {
+  font-family: "Trebuchet MS", "Tahoma", sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  mso-line-height-rule: exactly;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.p-3 {
+  font-family: "Trebuchet MS", "Tahoma", sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  mso-line-height-rule: exactly;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.p-4 {
+  font-family: "Trebuchet MS", "Tahoma", sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  mso-line-height-rule: exactly;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 13px;
+}
+
+.t-a-c {
+  text-align: center;
+}
+
+.f-w-b {
+  font-weight: bold;
+}
+
+.t-t-u {
+  text-transform: uppercase;
+}
+
+.t-d-u {
+ text-decoration: underline;
+}
+
+.t-d-n {
+ text-decoration: none;
+}
+
+/* Fonts-color */
+.f-c-black {
+  color: #000000;
+}
+
+.f-c-white {
+  color: #ffffff;
+}
+
+.f-c-gray {
+  color: #828282;
+}
+
+.f-c-cod-gray {
+  color: #141414;
+}
+
+.f-c-red-orange {
+  color: #FF4B33;
+}
+
+.f-c-lightning-yellow {
+  color: #FFC81A;
+}
+
+.f-c-torea-bay {
+  color: #0B379B;
+}
+
+.f-c-java {
+  color: #13D6C3;
+}
+
+.f-c-egg-blue {
+  color: #02BAD3;
+}
+
+/* Buttons */
+.big-button {
+  display: inline-block;
+  width: auto;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.big-button a {
+  display: inline-block;
+  mso-style-priority:100 !important;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.b-c-red-orange {
+  background-color: #FF4B33;
+}
+
+.br-red-orange {
+  border-top-width: 8px;
+  border-top-style: solid;
+  border-top-color: #FF4B33;
+  border-right-width: 16px;
+  border-right-style: solid;
+  border-right-color: #FF4B33;
+  border-bottom-width: 8px;
+  border-bottom-style: solid;
+  border-bottom-color: #FF4B33;
+  border-left-width: 16px;
+  border-left-style: solid;
+  border-left-color: #FF4B33;
+}
+
+.b-c-lightning-yellow {
+  background-color: #FFC81A;
+}
+
+.br-lightning-yellow {
+  border-top-width: 8px;
+  border-top-style: solid;
+  border-top-color: #FFC81A;
+  border-right-width: 16px;
+  border-right-style: solid;
+  border-right-color: #FFC81A;
+  border-bottom-width: 8px;
+  border-bottom-style: solid;
+  border-bottom-color: #FFC81A;
+  border-left-width: 16px;
+  border-left-style: solid;
+  border-left-color: #FFC81A;
+}
+
+.b-c-torea-bay {
+  background-color: #0B379B;
+}
+
+.br-torea-bay {
+  border-top-width: 8px;
+  border-top-style: solid;
+  border-top-color: #0B379B;
+  border-right-width: 16px;
+  border-right-style: solid;
+  border-right-color: #0B379B;
+  border-bottom-width: 8px;
+  border-bottom-style: solid;
+  border-bottom-color: #0B379B;
+  border-left-width: 16px;
+  border-left-style: solid;
+  border-left-color: #0B379B;
+}
+
