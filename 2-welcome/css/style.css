@@ -1,5 +1,6 @@
 .content-wrapper {
   background-color: #F6F6F6;
+  min-width: 320px;
 }
 
 
@@ -125,6 +126,7 @@
   padding-bottom: 24px;
   text-align: center;
 }
+
 .course-wrapper .course-text {
   padding-bottom: 20px;
 }
@@ -229,7 +231,7 @@
 .footer-menu {
   padding-top: 20px;
   padding-bottom: 16px;
-  text-align: center;
+  text-align: left;
   vertical-align: top;
   font-size: 0px;
 }
@@ -237,14 +239,14 @@
 .footer-menu .footer-left {
   display: inline-block;
   width: 100%;
-  max-width: 285px;
+  max-width: 300px;
   vertical-align: top;
   font-size: 14px;
 }
 
 .footer-left .inner {
-  padding-right: 16px;
-  padding-left: 16px;
+  padding-right: 32px;
+  padding-left: 32px;
   vertical-align: top;
 }
 
@@ -281,14 +283,14 @@
 .footer-menu .footer-right {
   display: inline-block;
   width: 100%;
-  max-width: 285px;
+  max-width: 300px;
   vertical-align: top;
   font-size: 14px;
 }
 
 .footer-right .inner {
-  padding-right: 16px;
-  padding-left: 16px;
+  padding-right: 32px;
+  padding-left: 32px;
   vertical-align: top;
 }
 
@@ -309,7 +311,7 @@
 
 .line-container .line {
   height: 1px;
-  width:100%;
+  width: 100%;
   padding: 0;
   padding-bottom: 6px;
   Margin: 0;
@@ -435,7 +437,7 @@
 }
 
 .t-d-u {
- text-decoration: underline;
+  text-decoration: underline;
 }
 
 .t-d-n {
@@ -491,7 +493,7 @@
 
 .big-button a {
   display: inline-block;
-  mso-style-priority:100 !important;
+  mso-style-priority: 100 !important;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
@@ -554,4 +556,71 @@
   border-left-style: solid;
   border-left-color: #0B379B;
 }
+
+/* Media */
+@media only screen and (max-width:600px) {
+
+  .two-column .column,
+  .course-leads .leads-column {
+    max-width: 100% !important;
+  }
+
+  .menu-link.p-2,
+  .menu-link .p-2 {
+    font-size: 18px !important;
+    line-height: 21px !important;
+  }
+
+/*
+  .big-button {
+    display: block !important;
+    max-width: 100% !important;
+    padding: 0 !important;
+  }
+*/
+
+  .pt-0 {
+    padding-top: 0 !important;
+  }
+
+  .pb-0 {
+    padding-bottom: 0 !important;
+  }
+
+  .pt-42 {
+    padding-top: 42px !important;
+  }
+
+  .pt-24 {
+    padding-top: 24px !important;
+  }
+
+  .pb-32 {
+    padding-bottom: 32px !important;
+  }
+
+  .pb-18 {
+    padding-bottom: 18px !important;
+  }
+
+  .pb-16 {
+    padding-bottom: 16px !important;
+  }
+
+  .pb-24 {
+    padding-bottom: 24px !important;
+  }
+
+  .pt-8 {
+    padding-top: 8px !important;
+  }
+
+  .pb-8 {
+    padding-bottom: 8px !important;
+  }
+
+  .events .button {
+    padding-top: 16px !important;
+    padding-bottom: 16px !important;
+  }
 
