@@ -539,109 +539,114 @@
 }
 
 /* Fonts */
-td.h-1 {
-  font-family: 'Trebuchet MS', 'Tahoma', sans-serif;
+.h-1 {
+  font-family: "Trebuchet MS", "Tahoma", sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  mso-line-height-rule: exactly;
   font-style: normal;
   font-weight: bold;
   font-size: 56px;
   line-height: 68px;
 }
 
-td.h-2 {
-  font-family: 'Trebuchet MS', 'Tahoma', sans-serif;
+.h-2 {
+  font-family: "Trebuchet MS", "Tahoma", sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  mso-line-height-rule: exactly;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
   line-height: 42px;
 }
 
-td.h-3 {
-  font-family: 'Trebuchet MS', 'Tahoma', sans-serif;
+.h-3 {
+  font-family: "Trebuchet MS", "Tahoma", sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  mso-line-height-rule: exactly;
   font-style: normal;
   font-weight: bold;
   font-size: 30px;
   line-height: 35px;
 }
 
-td.h-4 {
-  font-family: 'Trebuchet MS', 'Tahoma', sans-serif;
+.h-4 {
+  font-family: "Trebuchet MS", "Tahoma", sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  mso-line-height-rule: exactly;
   font-style: normal;
   font-weight: bold;
   font-size: 28px;
   line-height: 33px;
 }
 
-td.h-5 {
-  font-family: 'Trebuchet MS', 'Tahoma', sans-serif;
+.h-5 {
+  font-family: "Trebuchet MS", "Tahoma", sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  mso-line-height-rule: exactly;
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
   line-height: 28px;
 }
 
-td.p-1 {
-  font-family: 'Trebuchet MS', 'Tahoma', sans-serif;
+.p-1 {
+  font-family: "Trebuchet MS", "Tahoma", sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  mso-line-height-rule: exactly;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 21px;
 }
 
-td.p-2 {
-  font-family: 'Trebuchet MS', 'Tahoma', sans-serif;
+.p-2 {
+  font-family: "Trebuchet MS", "Tahoma", sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  mso-line-height-rule: exactly;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 19px;
 }
 
-td.p-3 {
-  font-family: 'Trebuchet MS', 'Tahoma', sans-serif;
+.p-3 {
+  font-family: "Trebuchet MS", "Tahoma", sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  mso-line-height-rule: exactly;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 16px;
 }
 
-td.p-4 {
-  font-family: 'Trebuchet MS', 'Tahoma', sans-serif;
+.p-4 {
+  font-family: "Trebuchet MS", "Tahoma", sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  mso-line-height-rule: exactly;
   font-style: normal;
   font-weight: normal;
   font-size: 13px;
   line-height: 15px;
 }
 
-td.p-4 {
-  font-family: 'Trebuchet MS', 'Tahoma', sans-serif;
+.p-4 {
+  font-family: "Trebuchet MS", "Tahoma", sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  mso-line-height-rule: exactly;
   font-style: normal;
   font-weight: normal;
   font-size: 11px;
   line-height: 13px;
-}
-
-span.h-1,
-a.h-1,
-span.h-2,
-a.h-2,
-span.h-3,
-a.h-3,
-span.h-4,
-a.h-4,
-span.h-5,
-a.h-5,
-span.h-6,
-a.h-6,
-span.p-1,
-a.p-1,
-span.p-2,
-a.p-2,
-span.p-3,
-a.p-3,
-span.p-4,
-a.p-4{
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  mso-line-height-rule: exactly;
 }
 
 .t-a-c {
@@ -669,52 +674,39 @@ a.p-4{
 }
 
 /* Fonts-color */
-td.f-c-black,
-a.f-c-black {
+.f-c-black {
   color: #000000;
 }
 
-td.f-c-white,
-a.f-c-white {
+.f-c-white {
   color: #ffffff;
 }
 
-td.f-c-gray,
-a.f-c-gray {
+.f-c-gray {
   color: #828282;
 }
 
-td.f-c-cod-gray,
-a.f-c-cod-gray {
+.f-c-cod-gray {
   color: #141414;
 }
 
-td.f-c-cod-mine-shaft,
-a.f-c-cod-mine-shaft {
-  color: #333333;
-}
-
-td.f-c-red-orange {
+.f-c-red-orange {
   color: #FF4B33;
 }
 
-td.f-c-lightning-yellow,
-a.f-c-lightning-yellow {
+.f-c-lightning-yellow {
   color: #FFC81A;
 }
 
-td.f-c-torea-bay,
-a.f-c-torea-bay {
+.f-c-torea-bay {
   color: #0B379B;
 }
 
-td.f-c-java,
-a.f-c-java {
+.f-c-java {
   color: #13D6C3;
 }
 
-td.f-c-egg-blue,
-a.f-c-egg-blue {
+.f-c-egg-blue {
   color: #02BAD3;
 }
 
@@ -795,6 +787,7 @@ a.f-c-egg-blue {
 }
 
 /* Media */
+
 @media only screen and (min-width:600px) {
   .header-social .title {
     text-align: right !important
