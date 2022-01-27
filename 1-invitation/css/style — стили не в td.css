@@ -3,55 +3,57 @@
   min-width: 320px;
 }
 
+.content-wrapper .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
 
 .content-body {
   background-color: #ffffff;
   Margin: 0 auto;
   width: 100%;
-  max-width: 600px;
+  max-width: 570px;
+}
+
+/* Web-version */
+.web-version {
+  padding-top: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  background-color: #F6F6F6;
 }
 
 /* Logo */
 .logo {
-  padding-top: 56px;
+  padding-top: 30px;
   padding-right: 15px;
-  padding-bottom: 30px;
+  padding-bottom: 8px;
   padding-left: 15px;
 }
 
-/* Menu */
-.menu {
+/* Welcome */
+.welcome {
+  padding-top: 8px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 8px;
+}
+
+.welcome .title {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.welcome .subtitle {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+/* Two-columns */
+.two-column {
   padding-top: 16px;
   padding-bottom: 16px;
-  text-align: center;
-  vertical-align: top;
-  font-size: 0px;
-}
-
-.menu-column {
-  display: inline-block;
-  width: 100%;
-  max-width: 150px;
-  vertical-align: top;
-  font-size: 14px;
-}
-
-.menu-column .inner {
-  padding-right: 16px;
-  padding-left: 16px;
-}
-
-.menu-column .menu-link {
-  padding-bottom: 16px;
-}
-
-/* Two-column*/
-.two-column {
-  padding-top: 24px;
-  padding-right: 16px;
-  padding-left: 16px;
-  padding-bottom: 12px;
-  background-color: #0B379B;
   text-align: center;
   vertical-align: top;
   font-size: 0px;
@@ -60,170 +62,142 @@
 .two-column .column-left {
   display: inline-block;
   width: 100%;
-  max-width: 361px;
+  max-width: 218px;
   vertical-align: top;
   font-size: 14px;
 }
 
+.column-left__wrapper {
+  padding-right: 9px;
+  padding-left: 9px;
+  padding-bottom: 16px;
+}
+
 .column-left .inner {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding-top: 16px;
   padding-right: 16px;
   padding-left: 16px;
-  padding-bottom: 12px;
+  padding-bottom: 16px;
+  vertical-align: top;
+  background-color: #FF4B33;
 }
 
-.column-left .title {
-  padding-bottom: 26px;
+.column-left .month {
+  padding-bottom: 2px;
 }
 
-.column-left .text {
-  padding-bottom: 12px;
+.column-left .data {
+  padding-bottom: 2px;
+}
+
+.column-left .time {
+  padding-bottom: 8px;
+}
+
+.column-left .button {
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
 
 .two-column .column-right {
   display: inline-block;
   width: 100%;
-  max-width: 207px;
-  vertical-align: top;
+  max-width: 352px;
   font-size: 14px;
 }
 
-.column-right .inner {
-  padding-right: 16px;
-  padding-left: 16px;
-  padding-bottom: 12px;
+.column-left__wrapper {
+  padding-bottom: 16px;
 }
 
 /* Description */
 .description {
-  padding-top: 48px;
-  padding-right: 32px;
-  padding-bottom: 8px;
-  padding-left: 32px;
+  padding-top: 40px;
+  padding-right: 16px;
+  padding-left: 16px;
+  padding-bottom: 32px;
+  background-color: #0B379B;
 }
 
-.description-title {
-  padding-bottom: 24px;
+.description .text {
+  padding-bottom: 32px;
 }
 
-.description-text {
-  padding-bottom: 20px;
-}
-
-/* Course-lead */
-.course-lead {
-  padding-top: 20px;
-  padding-right: 24px;
-  padding-bottom: 8px;
-  padding-left: 24px;
-}
-
-.course-lead .course-wrapper {
-  padding-right: 8px;
-  padding-left: 8px;
-}
-
-.course-wrapper .course-title {
-  padding-bottom: 24px;
-  text-align: center;
-}
-
-.course-wrapper .course-text {
-  padding-bottom: 20px;
-}
-
-.course-leads {
-  padding-bottom: 24px;
-  text-align: center;
-  vertical-align: top;
-  font-size: 0px;
-}
-
-.leads-column {
-  display: inline-block;
-  width: 100%;
-  max-width: 184px;
-  vertical-align: top;
-  font-size: 14px;
-}
-
-.leads-column .inner {
-  padding-right: 8px;
-  padding-left: 8px;
-}
-
-.leads-column .avatar {
-  padding-bottom: 12px;
-}
-
-.leads-column .name {
-  padding-bottom: 0px;
-}
-
-.leads-column .speciality {
-  padding-bottom: 24px;
-}
-
-/* Events */
-.events {
-  padding-top: 20px;
-  padding-right: 32px;
-  padding-bottom: 8px;
-  padding-left: 32px;
-}
-
-.events-title {
-  padding-bottom: 24px;
-}
-
-.events-list {
+.description .title {
   padding-bottom: 16px;
 }
 
-.events-list .inner {
-  max-width: 100%;
-  border-top-width: 1px;
-  border-top-style: solid;
-  border-top-color: #02BAD3;
-  border-right-width: 1px;
-  border-right-style: solid;
-  border-right-color: #02BAD3;
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
-  border-bottom-color: #02BAD3;
-  border-left-width: 1px;
-  border-left-style: solid;
-  border-left-color: #02BAD3;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
-  border-bottom-left-radius: 15px;
-}
-
-.events-list .content {
-  padding-top: 24px;
-  padding-right: 16px;
-  padding-bottom: 12px;
-  padding-left: 16px;
-}
-
-.events-list .title {
+.description .list-item {
   padding-bottom: 8px;
 }
 
-.events-list .time {
-  padding-bottom: 18px;
+.description .icon {
+  width: 12px;
+  padding-top: 5px;
+  padding-right: 12px;
+  vertical-align: top;
+  text-align: center;
 }
 
-.events-list .text {
-  padding-bottom: 12px;
+.description .list-item .question {
+  vertical-align: top;
 }
 
-.events .button {
-  padding-top: 24px;
+/* Webinar */
+.webinar {
+  padding-top: 40px;
+  padding-right: 16px;
+  padding-left: 16px;
+  padding-bottom: 8px;
+}
+
+.webinar .lead {
   padding-bottom: 24px;
 }
 
-.events .banner {
+.webinar .avatar {
+  padding-bottom: 12px;
+}
+
+.webinar .name {
+  padding-bottom: 2px;
+}
+
+.webinar .speciality {
+  padding-bottom: 16px;
+}
+
+.webinar .button {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+/* Prize */
+.prize {
+  padding-top: 8px;
+  padding-right: 16px;
+  padding-left: 16px;
+  padding-bottom: 20px;
+}
+
+.prize .banner {
+  padding-bottom: 16px;
+}
+
+.prize .title {
+  padding-bottom: 16px;
+}
+
+.prize .button {
+  padding-top: 16px;
+  padding-bottom: 24px;
+}
+
+.prize .notice {
   padding-bottom: 8px;
 }
 
@@ -239,14 +213,14 @@
 .footer-menu .footer-left {
   display: inline-block;
   width: 100%;
-  max-width: 300px;
+  max-width: 285px;
   vertical-align: top;
   font-size: 14px;
 }
 
 .footer-left .inner {
-  padding-right: 32px;
-  padding-left: 32px;
+  padding-right: 16px;
+  padding-left: 16px;
   vertical-align: top;
 }
 
@@ -283,52 +257,24 @@
 .footer-menu .footer-right {
   display: inline-block;
   width: 100%;
-  max-width: 300px;
+  max-width: 285px;
   vertical-align: top;
   font-size: 14px;
 }
 
 .footer-right .inner {
-  padding-right: 32px;
-  padding-left: 32px;
+  padding-right: 16px;
+  padding-left: 16px;
   vertical-align: top;
-}
-
-/* Line */
-.line-container {
-  Margin: 0;
-  padding-right: 32px;
-  padding-left: 32px;
-}
-
-.line-container .inner {
-  Margin: 0;
-  padding-top: 10px;
-  padding-bottom: 16px;
-  font-size: 0;
-}
-
-
-.line-container .line {
-  height: 1px;
-  width: 100%;
-  padding: 0;
-  padding-bottom: 6px;
-  Margin: 0;
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
-  border-bottom-color: #E0E0E0;
-  background: none;
-  background-color: none;
-
 }
 
 /* Subscription */
 .subscription {
-  padding-top: 16px;
-  padding-right: 32px;
-  padding-bottom: 16px;
-  padding-left: 32px;
+  padding-top: 56px;
+  padding-right: 0px;
+  padding-bottom: 8px;
+  padding-left: 0px;
+  background-color: #F6F6F6;
 }
 
 .subscription .rules {
@@ -336,101 +282,92 @@
 }
 
 /* Fonts */
-td.h-1,
-a.h-1 {
-  font-family: 'Trebuchet MS', 'Tahoma', sans-serif;
+.h-1 {
+  font-family: "Trebuchet MS", "Tahoma", sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  mso-line-height-rule: exactly;
   font-style: normal;
   font-weight: bold;
   font-size: 96px;
   line-height: 111px;
 }
 
-td.h-2,
-a.h-2 {
-  font-family: 'Trebuchet MS', 'Tahoma', sans-serif;
+.h-2 {
+  font-family: "Trebuchet MS", "Tahoma", sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  mso-line-height-rule: exactly;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
   line-height: 42px;
 }
 
-td.h-3,
-a.h-3 {
-  font-family: 'Trebuchet MS', 'Tahoma', sans-serif;
+.h-3 {
+  font-family: "Trebuchet MS", "Tahoma", sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  mso-line-height-rule: exactly;
   font-style: normal;
   font-weight: bold;
   font-size: 30px;
   line-height: 35px;
 }
 
-td.h-4,
-a.h-4 {
-  font-family: 'Trebuchet MS', 'Tahoma', sans-serif;
+.h-4 {
+  font-family: "Trebuchet MS", "Tahoma", sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  mso-line-height-rule: exactly;
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
   line-height: 28px;
 }
 
-td.p-1,
-a.p-1 {
-  font-family: 'Trebuchet MS', 'Tahoma', sans-serif;
+.p-1 {
+  font-family: "Trebuchet MS", "Tahoma", sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  mso-line-height-rule: exactly;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 21px;
 }
 
-td.p-2,
-a.p-2 {
-  font-family: 'Trebuchet MS', 'Tahoma', sans-serif;
+.p-2 {
+  font-family: "Trebuchet MS", "Tahoma", sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  mso-line-height-rule: exactly;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 19px;
 }
 
-td.p-3,
-a.p-3 {
-  font-family: 'Trebuchet MS', 'Tahoma', sans-serif;
+.p-3 {
+  font-family: "Trebuchet MS", "Tahoma", sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  mso-line-height-rule: exactly;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 16px;
 }
 
-td.p-4,
-a.p-4 {
-  font-family: 'Trebuchet MS', 'Tahoma', sans-serif;
+.p-4 {
+  font-family: "Trebuchet MS", "Tahoma", sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  mso-line-height-rule: exactly;
   font-style: normal;
   font-weight: normal;
   font-size: 11px;
   line-height: 13px;
-}
-
-span.h-1,
-a.h-1,
-span.h-2,
-a.h-2,
-span.h-3,
-a.h-3,
-span.h-4,
-a.h-4,
-span.h-5,
-a.h-5,
-span.h-6,
-a.h-6,
-span.p-1,
-a.p-1,
-span.p-2,
-a.p-2,
-span.p-3,
-a.p-3,
-span.p-4,
-a.p-4{
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  mso-line-height-rule: exactly;
 }
 
 .t-a-c {
@@ -454,52 +391,43 @@ a.p-4{
 }
 
 /* Fonts-color */
-td.f-c-black,
-a.f-c-black {
+.f-c-black {
   color: #000000;
 }
 
-td.f-c-white,
-a.f-c-white {
+.f-c-white {
   color: #ffffff;
 }
 
-td.f-c-gray,
-a.f-c-gray {
+.f-c-gray {
   color: #828282;
 }
 
-td.f-c-cod-gray,
-a.f-c-cod-gray {
+.f-c-cod-gray {
   color: #141414;
 }
 
-td.f-c-cod-mine-shaft,
-a.f-c-cod-mine-shaft {
+.f-c-cod-mine-shaft {
   color: #333333;
 }
 
-td.f-c-red-orange {
+.f-c-red-orange {
   color: #FF4B33;
 }
 
-td.f-c-lightning-yellow,
-a.f-c-lightning-yellow {
+.f-c-lightning-yellow {
   color: #FFC81A;
 }
 
-td.f-c-torea-bay,
-a.f-c-torea-bay {
+.f-c-torea-bay {
   color: #0B379B;
 }
 
-td.f-c-java,
-a.f-c-java {
+.f-c-java {
   color: #13D6C3;
 }
 
-td.f-c-egg-blue,
-a.f-c-egg-blue {
+.f-c-egg-blue {
   color: #02BAD3;
 }
 
@@ -580,17 +508,36 @@ a.f-c-egg-blue {
 }
 
 /* Media */
-@media only screen and (max-width:600px) {
+@media only screen and (min-width:600px) {
+  .right-banner {
+    width: 352px !important;
+    height: 294px !important;
+  }
+}
 
-  .two-column .column,
-  .course-leads .leads-column {
+@media only screen and (max-width:600px) {
+  .welcome .h-2 {
+    font-size: 28px !important;
+    line-height: 33px !important
+  }
+
+  .prize .h-3 {
+    font-size: 24px !important;
+    line-height: 28px !important
+  }
+
+  .welcome .h-4 {
+    font-size: 16px !important;
+    line-height: 19px !important
+  }
+
+  .two-column .column {
     max-width: 100% !important
   }
 
-  .menu-link.p-2,
-  .menu-link .p-2 {
-    font-size: 18px !important;
-    line-height: 21px !important
+  .big-button {
+    max-width: 206px !important;
+    padding: 0 !important
   }
 
   .pt-0 {
@@ -601,45 +548,20 @@ a.f-c-egg-blue {
     padding-bottom: 0 !important
   }
 
-  .pt-42 {
-    padding-top: 42px !important
-  }
-
   .pt-24 {
     padding-top: 24px !important
-  }
-
-  .pb-32 {
-    padding-bottom: 32px !important
-  }
-
-  .pb-18 {
-    padding-bottom: 18px !important
-  }
-
-  .pb-16 {
-    padding-bottom: 16px !important
   }
 
   .pb-24 {
     padding-bottom: 24px !important
   }
 
-  .pt-8 {
-    padding-top: 8px !important
+  .pt-16 {
+    padding-top: 16px !important
   }
 
   .pb-8 {
     padding-bottom: 8px !important
-  }
-
-  .events .button {
-    padding-top: 16px !important;
-    padding-bottom: 16px !important
-  }
-
-  .d {
-    display: none
   }
 
   img {
